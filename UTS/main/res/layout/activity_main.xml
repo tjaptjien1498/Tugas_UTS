@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Login Music Player"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Username Anda"
+        android:paddingTop="25dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/username"
+        android:layout_marginLeft="30dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Password Anda"
+        android:paddingTop="25dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/password"
+        android:layout_marginLeft="30dp"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm"
+        android:text="Confirm"
+        android:layout_margin="30dp"/>
+
+
+</LinearLayout>
